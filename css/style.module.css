@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    width: 40%;
+    height: 30vh;
+    border-radius: .5em;
+    background-color: #000000;
+}
+#horario{
+    border: 1px solid #f1f1f1;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#horario p {
+    display: inline;
+    font-size: 80pt;
+    color: #C7111E;
+    margin-right: 5px;
+}
+#data{
+    height: 10vh;    
+    display: flex;
+    font-size: 16pt;
+    font-style: italic;
+    color: #f1f1f1b6;
+    align-items: center;
+    justify-content: center;
+}
+#dia,#mes,#ano{
+    font-size: 20pt;
+    color: #c7111df5;
+}
+#data p {
+    display: inline;
+}
+#data div{
+    margin-right: 20px ;
+}
